@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Bibekkkyyyy badarrrrrr</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #90070c, #0d04be, #14020f, #0bb622);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.box {
+  background: rgb(17, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #dff20b;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #d2e503;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #cae407;
+}
+
+#msg {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fce408;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>Bibekkkkyyy badarrrr</h1>
+
+  <p>Heyy wassup homie, how you doing? 😎</p>
+
+  <button onclick="showMessage()">Click me 👀</button>
+
+  <div id="msg"></div>
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("msg").innerText =
+    "Just checking on you 😌 don’t forget you’re my favourite homie 💯";
+}
+</script>
+
+</body>
+</html>
